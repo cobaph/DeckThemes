@@ -45,14 +45,6 @@ HOME PAGE
     color: #ffffff
 }
 
-/* Change overall background */
-.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
-  background-image: url(https://i.postimg.cc/2j9bttR9/halidomstroll.webp);
-  background: var(--font-color);
-  background-size: cover;
-  color: var(--font-color);
-}
-
 /* Filter by compatibility background */
 .steamdeckcompatfilter_CompatFilterDialog_21qvB {
   background: var(--bkg-color) !important;

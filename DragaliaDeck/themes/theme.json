@@ -10,8 +10,8 @@
     } ,
     "patches": {
         "Font": {
-            "default": "Tw Cen Condensed Bold",
-            "type": "dropdown",
+            "default": "Dragalia Font",
+            "type": "checkbox",
             "values": {
                 "None": {},
                 "Tw Cen Condensed Bold": { "tccb.css": ["SP" , "MainMenu" , "QuickAccess" ] }

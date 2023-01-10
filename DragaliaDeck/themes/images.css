@@ -2,22 +2,22 @@
 }
 /* Most recent game */
 .appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A- {
-  background-image: url("/themes_custom/Dragalia Deck/img/main-01.png");
+  background-image: url("/themes_custom/Dragalia%20Deck/img/main-01.png");
   background-size: cover;
-  -webkit-mask-image: url("/themes_custom/Dragalia Deck/img/main-02.png");
+  -webkit-mask-image: url("/themes_custom/Dragalia%20Deck/img/main-02.png");
   -webkit-mask-size: cover;
 }
 .appportrait_InRecentGames_biTV-.appportrait_FeaturedCapsule_xp7A-
   > .libraryassetimage_LandscapeImage_ZsU8n {
-  -webkit-mask-image: url("/themes_custom/Dragalia Deck/img/main-03.png");
+  -webkit-mask-image: url("/themes_custom/Dragalia%20Deck/img/main-03.png");
   -webkit-mask-size: cover;
 }
 
 /* Most recent portrait game icons */
 .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J {
-  background-image: url("/themes_custom/Dragalia Deck/img/recent01-01.png");
+  background-image: url("/themes_custom/Dragalia%20Deck/img/recent01-01.png");
   background-size: cover;
-  -webkit-mask-image: url("/themes_custom/Dragalia Deck/img/recent01-02.png");
+  -webkit-mask-image: url("/themes_custom/Dragalia%20Deck/img/recent01-02.png");
   -webkit-mask-size: cover;
 }
 .appportrait_InRecentGames_biTV-.appportrait_Portrait_1Pf6J
@@ -25,20 +25,20 @@
 .appgrid_YourCollection_11p6F
   > .appportrait_Portrait_1Pf6J
   > .libraryassetimage_PortraitImage_3Ehhd {
-  -webkit-mask-image: url("/themes_custom/Dragalia Deck/img/recent01-03.png");
+  -webkit-mask-image: url("/themes_custom/Dragalia%20Deck/img/recent01-03.png");
   -webkit-mask-size: cover;
 }
 
 /* Steam Menu */
 .mainmenu_Menu_23IDi {
-  background-image: url("/themes_custom/Dragalia Deck/img/bkg1.png");
+  background-image: url("/themes_custom/Dragalia%20Deck/img/bkg1.png");
 /*  background: var(--bkg-color) !important;*/
     background-size: cover;
 }
 
 /* Quick Access background */
 .quickaccessmenu_QuickAccessMenu_V0cr- {
-  background-image: url("/themes_custom/Dragalia Deck/img/bkg2.png")
+  background-image: url("/themes_custom/Dragalia%20Deck/img/bkg2.png")
   /*background: var(--bkg-color) */
   !important;
     background-size: cover;
@@ -46,27 +46,27 @@
 
 /* Settings bkg */
 .gamepadpagedsettings_PagedSettingDialog_ContentColumn_3JPle {
-  background-image: url("/themes_custom/Dragalia Deck/img/bkg3.png");
+  background-image: url("/themes_custom/Dragalia%20Deck/img/bkg3.png");
 /*    background: var(--bkg-color);*/
     background-size: cover;
 }
 
 /* Change friends tab color */
 .gamepadhome_TabbedContent_cE1Sa {
-  background-image: url("/themes_custom/Dragalia Deck/img/bkg1.png");
+  background-image: url("/themes_custom/Dragalia%20Deck/img/bkg1.png");
 }
 
 /* Library background */
 .gamepadlibrary_GamepadLibrary_ZBBhe {
-   background-image: url("/themes_custom/Dragalia Deck/img/bkg0.png");
+   background-image: url("/themes_custom/Dragalia%20Deck/img/bkg0.png");
 }
 
 /* Search for games or profiles*/
 .gamepadsearch_GamepadSearch_P_AlE {
-    background-image: url("/themes_custom/Dragalia Deck/img/bkg0.png");
+    background-image: url("/themes_custom/Dragalia%20Deck/img/bkg0.png");
 }
 
 /* Game & News background */
 .gamepadtabbedpage_GamepadTabbedPage_3IBLc {
-   background-image: url("/themes_custom/Dragalia Deck/img/bkg0.png");
+   background-image: url("/themes_custom/Dragalia%20Deck/img/bkg0.png");
 }

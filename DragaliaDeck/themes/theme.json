@@ -14,7 +14,7 @@
             "type": "checkbox",
             "values": {
                 "None": {},
-                "Tw Cen Condensed Bold": { "tccb.css": ["SP" , "MainMenu" , "QuickAccess" ] }
+                "Dragalia Font": { "tccb.css": ["SP" , "MainMenu" , "QuickAccess" ] }
             }
         }
     }

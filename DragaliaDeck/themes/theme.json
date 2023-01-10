@@ -1,6 +1,7 @@
 {
     "name": "Dragalia Deck",
     "author": "Cobaph",
+    "version": "V1.0",
     "manifest_version": 4,
     "target": "System-Wide",
     "description": "Vio Rhyse Alberia! A theme based on Dragalia Lost by Cygames and Nintendo. I don't know how to program, but I was inspired by and tried learning from Phantom (EMERALD#0874), SwitchLikeMenu (suchmememanyskill), Chiaki Nanami (Five#4321), and Gawr Gura (joamjoamjoam).",
@@ -9,12 +10,28 @@
         "images.css": ["SP" , "MainMenu" , "QuickAccess" ]
     } ,
     "patches": {
+        "Adventurer": {
+            "default": "The Prince",
+            "type": "dropdown",
+            "values": {
+                "The Prince": {},
+                "Coming Soon": {}
+            }
+        },    
         "Font": {
-            "default": "Dragalia Font",
+            "default": "Yes",
             "type": "checkbox",
             "values": {
-                "None": {},
-                "Dragalia Font": { "tccb.css": ["SP" , "MainMenu" , "QuickAccess" ] }
+                "No": {},
+                "Yes": { "tccb.css": ["SP" , "MainMenu" , "QuickAccess" ] }
+            }
+        },
+        "SwitchLikeMenu": {
+            "default": "Yes",
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": { "SwitchLikeMenu.css": ["SP"]}
             }
         }
     }

@@ -17,10 +17,5 @@
                 "Tw Cen Condensed Bold": { "tccb.css": ["SP" , "MainMenu" , "QuickAccess" ] }
             }
         }
-    },
-    "dependencies": {
-        "Switch Like Home": {
-            "No Friends": "Yes"
-        }
     }
 }

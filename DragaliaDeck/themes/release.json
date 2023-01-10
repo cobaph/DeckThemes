@@ -1,0 +1,16 @@
+{
+  "include": [
+    "fonts/tccb.ttf",
+    "img/bkg0.png",
+    "img/bkg1.png",
+    "img/bkg2.png",
+    "img/bkg3.png",
+    "img/main-01.png",
+    "img/main-02.png",
+    "img/main-03.png",
+    "img/recent01-01.png",
+    "img/recent01-02.png",
+    "img/recent01-03.png",
+  ],
+  "ignore": []
+}

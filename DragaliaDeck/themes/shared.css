@@ -1,7 +1,7 @@
 :root {
-  --bkg-color: #e7e5e5;
-  --font-color: #3d3b3e;
-  --focus-color: #679ef9;
+  --Dragalia-bkg-color: #e7e5e5;
+  --Dragalia-font-color: #3d3b3e;
+  --Dragalia-focus-color: #679ef9;
 }
 
 /*
@@ -37,7 +37,7 @@ HOME PAGE
 
 /* Regular Update font color */
 .gamepadhomewhatsnew_EventType_1f0dZ.gamepadhomewhatsnew_EventType13_16aly{
-    color: var(--focus-color);
+    color: var(--Dragalia-focus-color);
 }
 
 /* Date font color */
@@ -47,24 +47,24 @@ HOME PAGE
 
 /* Filter by compatibility background */
 .steamdeckcompatfilter_CompatFilterDialog_21qvB {
-  background: var(--bkg-color) !important;
+  background: var(--Dragalia-bkg-color) !important;
 }
 
 /* Collection background color? */
 .allcollections_Collection_3IWn- {
-  background: var(--bkg-color) !important;
+  background: var(--Dragalia-bkg-color) !important;
 }
 
 /* Tab font color */
 .gamepadtabbedpage_Tab_3eEbS {
     color: #ffffff !important;
-    -webkit-text-stroke: 0.5px var(--bkg-color);
+    -webkit-text-stroke: 0.5px var(--Dragalia-bkg-color);
 }
 
 /* Focused tab color */
 .gamepadtabbedpage_Tab_3eEbS.gpfocus
 {
-    background-color: var(--font-color) !important;
+    background-color: var(--Dragalia-font-color) !important;
 }
 
 /* Library number color on focus */
@@ -92,7 +92,7 @@ Game Details
 /* Deck Compatibility Description background */
 .DeckVerifiedModalDialogClient .DialogContent,
 .DeckVerifiedModalDialog .DialogContent {
-  background: var(--font-color) !important;
+  background: var(--Dragalia-font-color) !important;
 }
 
 /*
@@ -113,7 +113,7 @@ DOWNLOADS
 
 /* Graph area at top */
 .downloadgraph_GraphAndStats_3KDkL {
-  background: var(--bkg-color) !important;
+  background: var(--Dragalia-bkg-color) !important;
 }
 
 /*
@@ -123,13 +123,13 @@ Settings
 /* Library Settings */
 .BasicUI .librarysettings_LibrarySettings_2nsOY {
   background: #ffffff !important;
-  --bkg-color:none;
+  --Dragalia-bkg-color:none;
 }
 
 /* Settings Storage tab */
 .BasicUI .contentmanagement_ContentManagement_3wk64 {
-  background: var(--bkg-color) !important;
-  --bkg-color:none;
+  background: var(--Dragalia-bkg-color) !important;
+  --Dragalia-bkg-color:none;
 }
 
 /* Settings Font */
@@ -141,7 +141,7 @@ Settings
 /* Settings icons */
 .gamepadui_BasicHome_3LYP1
 {
- color: var(--font-color);
+ color: var(--Dragalia-font-color);
 }
 
 /*
@@ -150,12 +150,12 @@ Main Menu
 
 /* Main Menu font */
 .mainmenu_ItemLabel_3x-ZK{
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Main Menu icons */
 .mainmenu_ItemIcon_3xZ3Z{
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /*
@@ -170,7 +170,7 @@ Quick Access
 
 /* Active Quick Access tab */
 .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
-  background-color: var(--focus-color) !important;
+  background-color: var(--Dragalia-focus-color) !important;
   color: #ffffff !important;
 }
 
@@ -182,19 +182,19 @@ Quick Access
 
 /* Quick Access icons */
 .quickaccessmenu_Tab_1S76C {
- color: var(--focus-color) !important;
+ color: var(--Dragalia-focus-color) !important;
 }
 
 /* Quick Access Tab Title background */
 .quickaccessmenu_Title_34nl5 {
   background: none;
-  color: var(--font-color);
+  color: var(--Dragalia-font-color);
   box-shadow: none;
 }
 
 #QuickAccess-Menu .GamepadMode.friendlist .TabPanelHeader {
 /* Friends tab title font */
-  color: var(--font-color);
+  color: var(--Dragalia-font-color);
 }
 
 /* Friends List background */
@@ -209,15 +209,15 @@ Quick Access
 
 /* Friends List Active banner */
 .GamepadMode.friendlist .FriendsListTab.gpfocus {
-  color: var(--focus-color);
+  color: var(--Dragalia-focus-color);
 }
 
 /* Quick Access Battery label */
 .quickaccesscontrols_BatteryPercentageLabel_3Rxxi {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 .quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6 {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Help button colors */
@@ -230,7 +230,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled {
 /* Help button font color */
 button.gamepaddialog_Button_1kn70.DialogButton,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled {
-  color: var(--font-color);
+  color: var(--Dragalia-font-color);
 }
 
 /* Help button focus colors */
@@ -242,7 +242,7 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus {
 
 /* Help highlight color */
 .gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
-  background: var(--focus-color);
+  background: var(--Dragalia-focus-color);
   animation-name: none;
 }
 
@@ -255,33 +255,33 @@ button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus {
 /* Decky icon bkg */
 button.gamepaddialog_Button_1kn70.DialogButton.gpfocus,
 button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus {
-    background: var(--focus-color);
+    background: var(--Dragalia-focus-color);
 }
 
 /* Quick Access some font and icons */
 .gamepaddialog_FieldLabel_3b0U- {
-    color: var(--font-color) !important;
+    color: var(--Dragalia-font-color) !important;
 }
 
 /* Quick Access small font */
 .gamepaddialog_FieldDescription_2OJfk
 {
-    color: var(--font-color) !important;
+    color: var(--Dragalia-font-color) !important;
 }
 
 /* Performance Settings header color */
 .perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m {
-    color: var(--font-color) !important;
+    color: var(--Dragalia-font-color) !important;
 }
 
 /* Performace Settings Using default profile */
 .perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m {
-    color: var(--font-color) !important;
+    color: var(--Dragalia-font-color) !important;
 }
 
 /* Other tab icons and font */
 body, shared_common_v6_3r3Le {
-    color: var(--focus-color) !important;
+    color: var(--Dragalia-focus-color) !important;
 }
 
 /*  */
@@ -295,78 +295,78 @@ Settings
 
 /*Settings tab bkg color*/
 .gamepadpagedsettings_PagedSettingsDialog_PageListColumn_2EZ3o {
-    background: var(--focus-color);
+    background: var(--Dragalia-focus-color);
 }
 
 /* Settings focus color */
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r:focus {
     background: #ffffff;
-    color: var(--font-color) !important;
+    color: var(--Dragalia-font-color) !important;
     animation-name: none;
 }
 .gamepadpagedsettings_PagedSettingsDialog_PageListItem_1ix7r {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Settings header color */
 .gamepaddialog_GamepadDialogContent_3joNk .DialogHeader {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Settings subheader color */
 .BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogSubHeader {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 .BasicUI .gamepaddialog_GamepadDialogContent_3joNk .DialogControlsSectionHeader {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Time Zone font */
 .dropdownlabel_DropDownLabelUpperDescription_2_JN3 {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Time Zone font 2 */
 .dropdownlabel_DropDownLabelTitle_uDBZW {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Time Zone font 3 */
 .dropdownlabel_DropDownLabelDescription_1JPcb {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Other settings font */
 .notificationssettings_FriendsDescription_3fPiC.notificationssettings_FriendsDescription_3fPiC {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Other settings font 2 */
 .notificationssettings_ToggleHeader_33Q-M.notificationssettings_ToggleHeader_33Q-M {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 .controllersettings_NintendoSwitchLayoutToggle_3Q8Vc .controllersettings_NintendoSwitchLayoutToggleDesc_3J9Od {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /*Storage numbers*/
 .contentmanagement_DriveUsageText_1DFCG, .contentmanagement_DriveUsageNumber_181OY {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBodyLeft_d9dlN .contentmanagement_AppName_YxhO6 {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 .contentmanagement_DriveUsageText_1DFCG {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW.sortingdropdowncontrolbutton_SortingDropDownControlButton_2ddeJ {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 .contentmanagement_ContentManagement_3wk64 {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 
@@ -376,11 +376,11 @@ Other
 
 /* Main Menu focus tab color */
 .mainmenu_Item_2w9Tp:focus:hover {
-    background: var(--focus-color);
+    background: var(--Dragalia-focus-color);
     color: #ffffff !important;
 }
 .mainmenu_Item_2w9Tp:hover {
-    background: var(--focus-color);
+    background: var(--Dragalia-focus-color);
     color: #ffffff !important;
 }
 
@@ -389,7 +389,7 @@ Other
 }
 .mainmenu_Item_2w9Tp.gpfocus {
     animation-name: none;
-    background: var(--focus-color);
+    background: var(--Dragalia-focus-color);
     color: #ffffff !important;
 }
 
@@ -464,15 +464,15 @@ Other
     fill: #f1f24f;
 }
 .quickaccesscontrols_BatteryPercentageLabel_3Rxxi {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 .quickaccesscontrols_BatteryDetailsLabels_3M39z .quickaccesscontrols_BatteryProjectedValue_1mTo6 {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* Main Menu You Are Here font color*/
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
-    color: var(--focus-color);
+    color: var(--Dragalia-focus-color);
 }
 
 /* Main Menu focus tab font color */
@@ -482,7 +482,7 @@ Other
 
 /* Main Menu You Are Here icon color */
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z {
-    color: var(--focus-color) !important;
+    color: var(--Dragalia-focus-color) !important;
 }
 
 /* Main Menu Focus You Are Here icon color */
@@ -492,7 +492,7 @@ Other
 
 /* Shutdown Focus */
 .basiccontextmenu_contextMenuItem_3PqLg.basiccontextmenu_Focused_3t3Zg.basiccontextmenu_Destructive_Uob7D {
-    background: var(--focus-color);
+    background: var(--Dragalia-focus-color);
 }
 
 /* Game details fonts */
@@ -506,17 +506,17 @@ Other
 .BasicUI .appdetailssectionheader_Label_1SQ30 .appdetailssectionheader_LabelText_3i0ko {
    color: #ffffff;
    font-weight: bolder;
-   -webkit-text-stroke: 0.5px var(--bkg-color);
+   -webkit-text-stroke: 0.5px var(--Dragalia-bkg-color);
 }
 .appdetailsfriendssection_FriendsSectionSubHeading_30EfX {
     color: #ffffff;
     font-weight: bolder;
-    -webkit-text-stroke: 0.5px var(--bkg-color);
+    -webkit-text-stroke: 0.5px var(--Dragalia-bkg-color);
 }
 .appactivityday_AppActivityDay_S2Fu9 .appactivityday_AppActivityDate_19LfM {
    color: #ffffff;
    font-weight: bolder;
-   -webkit-text-stroke: 0.5px var(--bkg-color);
+   -webkit-text-stroke: 0.5px var(--Dragalia-bkg-color);
 }
 .appactivityday_PartnerEventTextOnly_Icon_1-llQ svg path {
    fill: #ffffff;
@@ -597,22 +597,22 @@ Other
 /* News box colors */
 .gamepadhomewhatsnew_EventPreviewOuterWrapper_10b1V.gamepadhomewhatsnew_OuterWrapper_3DpEz:hover .gamepadhomewhatsnew_EventInfo_6TGe7, .gpfocus .gamepadhomewhatsnew_EventInfo_6TGe7 {
     background-color: #ffffff;
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* posted font color */
 .localdateandtime_RightSideTitles_3sPON {
-    color: var(--focus-color);
+    color: var(--Dragalia-focus-color);
 }
 
 /* date font color */
 .localdateandtime_ShortDateAndTime_4K3Bl {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* game name font color */
 .gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W- {
-    color: var(--focus-color);
+    color: var(--Dragalia-focus-color);
 }
 
 /* not focused news */
@@ -622,7 +622,7 @@ Other
 
 /* not focused news title font */
 .gamepadhomewhatsnew_Title_1QLHG {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* recently updated on this device font */
@@ -674,7 +674,7 @@ font-weight: 600;
 
 /* offline focus */
 .GamepadMode .offline .personanameandstatus_playerName_r62qz {
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
     font-weight: bold;
 }
 /* off focus friends boxes bkg */
@@ -720,7 +720,7 @@ font-weight: 600;
 /* friends playing now game title font */
 .gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_Title_EZ-F- {
     font-size: 16px;
-    color: var(--font-color);
+    color: var(--Dragalia-font-color);
 }
 
 /* friend name */

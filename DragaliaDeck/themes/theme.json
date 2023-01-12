@@ -25,14 +25,11 @@
                 "No": {},
                 "Yes": { "tccb.css": ["SP" , "MainMenu" , "QuickAccess" ] }
             }
-        },
-        "SwitchLikeMenu": {
-            "default": "Yes",
-            "type": "checkbox",
-            "values": {
-                "No": {},
-                "Yes": { "SwitchLikeMenu.css": ["SP"]}
-            }
+        }
+    },
+    "dependencies": {
+        "Switch Like Home": {
+            "No Friends": "Yes"
         }
     }
 }

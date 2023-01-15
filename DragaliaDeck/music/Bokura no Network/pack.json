@@ -1,0 +1,9 @@
+{
+  "name": "Bokura no Network",
+  "description": "Dragalia Lost home menu song by DAOKO",
+  "author": "cobaph",
+  "version": "v1.0",
+  "manifest_version": 2,
+  "music": true,
+  "ignore": []
+}

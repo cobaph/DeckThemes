@@ -1,0 +1,9 @@
+{
+  "name": "Cinderella Step (Off-Vocal)",
+  "description": "Dragalia Lost home menu song without vocals",
+  "author": "cobaph",
+  "version": "v1.0",
+  "manifest_version": 2,
+  "music": true,
+  "ignore": []
+}

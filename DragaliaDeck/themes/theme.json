@@ -4,7 +4,7 @@
     "version": "V2.0",
     "manifest_version": 4,
     "target": "System-Wide",
-    "description": "Vio Rhyse Alberia! A theme based on Dragalia Lost by Cygames and Nintendo. I don't know how to program, but I was inspired by and tried learning from Phantom (EMERALD#0874), SwitchLikeMenu (suchmememanyskill), Chiaki Nanami (Five#4321), and Gawr Gura (joamjoamjoam).",
+    "description": "Vio Rhyse Alberia! A theme based on Dragalia Lost by Cygames and Nintendo. Feel free to message me if you want a custom adventurer. I don't know how to program, but I was inspired by and tried learning from Phantom (EMERALD#0874), SwitchLikeMenu (suchmememanyskill), Chiaki Nanami (Five#4321), and Gawr Gura (joamjoamjoam).",
     "inject": { 
         "images.css": ["SP" , "MainMenu" , "QuickAccess" ] ,
         "MainMenu.css": ["MainMenu"] ,

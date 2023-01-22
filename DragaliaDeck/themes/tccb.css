@@ -3,7 +3,6 @@
   src: url("/themes_custom/Dragalia Deck/fonts/tccb.ttf");
   font-weight: bold;
   font-stretch: condensed;
-  font-size: large;
 }
 
 @font-face {
@@ -11,12 +10,10 @@
   src: url("/themes_custom/Dragalia Deck/fonts/tccb.ttf");
   font-weight: bold;
   font-stretch: condensed;
-  font-size: large;
 }
 
 * {
   font-family: Tw Cen Condensed Bold !important;
   font-weight: bold;
   font-stretch: condensed;
-  font-size: large;
 }

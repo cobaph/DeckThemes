@@ -2,9 +2,10 @@
 }
 /* Change overall background */
 .gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
-  background-image: url(https://i.postimg.cc/2j9bttR9/halidomstroll.webp);
-  background-size: cover;
-  color: var(--font-color);
+  background-image: url(https://i.postimg.cc/T3vNdN81/Lighting.webp), var(--adventurer), url(https://i.postimg.cc/W1mWhmjn/Halidom.webp);
+  background-size: auto, 45%, cover;
+  background-position: top left, top -18px left 361px, top left;
+  background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 /* Most recent game */

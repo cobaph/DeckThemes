@@ -1,0 +1,78 @@
+:root {
+  --Dragalia-bkg-color: #e7e5e5;
+  --Dragalia-font-color: #3d3b3e;
+  --Dragalia-focus-color: #679ef9;
+}
+
+/* Change the font-size when the font-family is "Tw Cen Condensed Bold" */
+/*p:not([style*='font-family: Tw Cen Condensed Bold']) {
+  font-size: 17px;
+}
+@font-face {
+  font-family: Tw Cen Condensed Bold;
+  src: url("/themes_custom/Dragalia Deck/fonts/tccb.ttf");
+  font-weight: bold;
+  font-stretch: condensed;
+}
+* {
+  font-family: Tw Cen Condensed Bold !important;
+  font-weight: bold;
+  font-stretch: condensed;
+  font-size: 22px !important;
+}*/
+
+/*
+Main Menu
+*/
+/* Main Menu font */
+.mainmenu_ItemLabel_3x-ZK{
+    color: var(--Dragalia-font-color);
+}
+.mainmenu_ItemIcon_3xZ3Z {
+    display: flex;
+    color: var(--Dragalia-font-color);
+}
+
+/* Focused Option */
+.mainmenu_Item_2w9Tp:focus:hover {
+    background: var(--Dragalia-focus-color);
+    color: #ffffff !important;
+}
+
+/* Main Menu Focus Tab Font Color 
+.mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemLabel_3x-ZK {
+    color: #ffffff;
+}*/
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z, 
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
+    color: var(--Dragalia-font-color);
+}
+/* Main Menu Focus Tab Bkg Color */
+.mainmenu_Item_2w9Tp.mainmenu_Active_10bq5:focus {
+    animation-name: none;
+}
+
+/* Focused Selection */
+.mainmenu_Item_2w9Tp.gpfocus {
+    animation-name: none;
+    background: var(--Dragalia-focus-color);
+}
+.mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemIcon_3xZ3Z, 
+.mainmenu_Item_2w9Tp.gpfocus .mainmenu_ItemLabel_3x-ZK {
+    color: #ffffff;
+}
+
+/* Currently Selected but Not Focused */
+.mainmenu_Item_2w9Tp:hover {
+    background: none;
+    color: #ffffff !important;
+}
+
+/* Active Section Dot */
+.mainmenu_Item_2w9Tp .mainmenu_ActiveDot_1uLVH {
+    position: absolute;
+    left: -2px;
+    background: var(--Dragalia-focus-color);
+    border-radius: 6px;
+}
+

@@ -1,0 +1,343 @@
+:root {
+  --Dragalia-bkg-color: #e7e5e5;
+  --Dragalia-font-color: #3d3b3e;
+  --Dragalia-focus-color: #679ef9;
+}
+
+/* Transparent Buttons */
+.quickaccessmenu_Tab_1S76C {
+    background-color: transparent;
+}
+/* Icon Color */
+.quickaccessmenu_Tab_1S76C {
+    color: var(--Dragalia-font-color);
+}
+
+/* Top Title Gradient */
+.quickaccessmenu_Title_34nl5 {
+    background: linear-gradient(90deg, rgba(28,60,103,1) 0%, rgba(28,60,103,1) 25%, rgba(8,31,48,1) 55%);
+    box-shadow: none;
+    justify-content: flex-end;
+    padding: 3px;
+    padding-top: 3px;
+    padding-right: 16px;
+}
+
+/* Focus */
+.gpfocus .quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu, 
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu.gpfocus {
+    background: var(--Dragalia-focus-color);
+    color: #ffffff;
+}
+.quickaccessmenu_Tab_1S76C.quickaccessmenu_Selected_2QHMu {
+    background: var(--Dragalia-focus-color);
+    animation-name: none;
+    color: #ffffff;
+}
+
+/* Remove Border */
+.quickaccessmenu_Tabs_3Ag1w::after {
+    content: none;
+}
+
+/* Generic Button */
+button.gamepaddialog_Button_1kn70.DialogButton, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled, {
+    background: transparent;
+    color: var(--Dragalia-font-color);
+    font-size: 16px;
+}
+
+/* Generic Button Focus */
+button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, 
+button.gamepaddialog_Button_1kn70.DialogButton:active, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus {
+    background: var(--Dragalia-focus-color);
+    color: #ffffff;
+    font-size: 18px;
+}
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocus, 
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin {
+    outline: none;
+    background: var(--Dragalia-focus-color);
+    color: #fff;
+    animation-name: none;
+}
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton.gpfocus, 
+.gamepaddialog_Field_S-_La button.gamepaddialog_Button_1kn70.DialogButton:enabled.gpfocus {
+    box-shadow: none;
+}
+
+/* Performance Battery */
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .quickaccesscontrols_BatteryPercentageLabel_3Rxxi {
+    color: #ffffff;
+}
+.quickaccesscontrols_BatteryPercentageLabel_3Rxxi {
+    color: var(--Dragalia-font-color);
+}
+/* Battery Icon Fill */
+.quickaccesscontrols_BatteryIcon_39aNh rect {
+    fill: #ebc041;
+}
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .quickaccesscontrols_BatteryIcon_39aNh svg {
+    color: #ffffff;
+}
+.quickaccesscontrols_BatteryIcon_39aNh svg {
+    color: var(--Dragalia-font-color);
+}
+/* Performance Overlay Level */
+.gamepaddialog_FieldLabel_3b0U- {
+    color: var(--Dragalia-font-color);
+}
+/* Slider Ticks */
+.gamepadslider_SliderNotchLabel_u_sH1 {
+    color: var(--Dragalia-font-color);
+}
+/* Performance Settings */
+.perf_PerfProfileInfo_1UqP6 .perf_Heading_23Yxa .perf_Text_3gY4m {
+    color: var(--Dragalia-font-color);
+}
+/* Using Default Profile */
+.perf_PerfProfileInfo_1UqP6 .perf_SubHeading_2C4wP .perf_Text_3gY4m {
+    color: var(--Dragalia-font-color);
+}
+/* Small Descriptions */
+.gamepaddialog_FieldDescription_2OJfk {
+    color: var(--Dragalia-font-color);
+}
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepaddialog_FieldDescription_2OJfk {
+    color: #ffffff;
+}
+/* Diagnostics */
+.quickaccesscontrols_PanelSectionTitle_2iFf9 {
+    color: var(--Dragalia-font-color);
+}
+/* Capacity */
+.gamepaddialog_LabelFieldValue_5Mylh {
+    color: var(--Dragalia-font-color);
+    word-break: break-word;
+}
+/* Settings Icons */
+.gamepadslider_SliderControlWithIcon_2M8Pt .gamepadslider_Icon_21uKi svg {
+    color: var(--Dragalia-font-color);
+}
+/* Notifications */
+.quickaccesscontrols_EmptyNotifications_1g1_n {
+    color: var(--Dragalia-font-color);
+}
+
+/* Toggle Switch */
+.gamepaddialog_Toggle_24G4g.gpfocus:after {
+    background-color: transparent;
+}
+.gamepaddialog_Toggle_24G4g.gpfocus:not(.gamepaddialog_Disabled_1pmyx) .gamepaddialog_ToggleSwitch_3__OD {
+    border: solid 3px var(--Dragalia-font-color);
+    margin: -3px;
+    box-shadow: none;
+}
+.gamepaddialog_ToggleRail_2JtC3 {
+    border: solid 2px #ffffff;
+}
+.gamepaddialog_ToggleSwitch_3__OD {
+    border: solid 3px var(--Dragalia-font-color);
+    margin: -3px;
+    box-shadow: none;
+}
+/* Slider */
+.gamepadslider_SliderTrack_Mq25N {
+    border-radius: 9001px;
+    border: solid 2px #ffffff;
+}
+.gamepadslider_SliderHandle_2yVKj {
+    box-shadow: none;
+    border: solid 3px var(--Dragalia-font-color);
+    margin: -3px;
+}
+.gamepaddialog_Field_S-_La.gamepaddialog_HighlightOnFocus_wE4V6.gpfocuswithin .gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
+    background-color: #ffffff;
+}
+.gamepadslider_SliderNotchTick_Fv1Ht.gamepadslider_TickActive_1gnUV {
+    background-color: var(--Dragalia-focus-color);
+}
+
+/* Friends List */
+.notificationcontent_StandardTemplate_1B_uv .notificationcontent_StandardNotificationDescription_kVqEa {
+    color: var(--Dragalia-font-color);
+}
+.notificationcontent_StandardTemplate_1B_uv .notificationcontent_StandardNotificationSubText_3iYf4 {
+    color: #ffffff;
+}
+.notificationcontent_StandardTemplate_1B_uv .notificationcontent_Icon_2eliP>svg {
+    color: var(--Dragalia-font-color);
+}
+.notificationcontent_StandardTemplate_1B_uv .notificationcontent_Title_3CsWl {
+    color: var(--Dragalia-font-color);    
+}
+.notificationcontent_StandardTemplate_1B_uv.gpfocus .notificationcontent_Timestamp_1dWDB {
+    color: var(--Dragalia-font-color);
+}
+.GamepadMode .personanameandstatus_playerNickname_2saJT {
+    color: var(--Dragalia-font-color);
+}
+.awayOrSnooze.online .personanameandstatus_playerName_nOdcT.GamepadMode, .GamepadMode .awayOrSnooze.online .personanameandstatus_playerName_nOdcT {
+    color: var(--Dragalia-focus-color);
+    text-shadow: none;
+}
+.GamepadMode .awayOrSnooze.online .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: var(--Dragalia-focus-color);
+}
+.GamepadMode .friendsnooze_SnoozeContainer_1Dsum.online .friendsnooze_SnoozeZ_2n0Ei {
+    color: var(--Dragalia-font-color);
+}
+.GamepadMode.friendlist {
+    background: transparent;
+}
+#QuickAccess-Menu .GamepadMode.friendlist .TabPanelHeader {
+    background: linear-gradient(90deg, rgba(28,60,103,1) 0%, rgba(28,60,103,1) 25%, rgba(8,31,48,1) 55%);
+    color: #ffffff;
+    box-shadow: none;
+    justify-content: flex-end;
+    padding-right: 16px;
+    margin: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    height: 20px;
+}
+/* Friend */
+.GamepadMode .online .personanameandstatus_playerName_nOdcT {
+    color: var(--Dragalia-focus-color);
+    text-shadow: none;
+}
+.GamepadMode .online .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: var(--Dragalia-focus-color);    
+}
+.GamepadMode .ingame .personanameandstatus_playerName_nOdcT {
+    color: #59bf40;
+    text-shadow: none;
+}
+.GamepadMode .ingame .personanameandstatus_gameName_1cB0q.personanameandstatus_richPresenceLabel_2Ri00 {
+    color: #59bf40;
+}
+.GamepadMode .personanameandstatus_playerNickname_2saJT {
+    color: var(--Dragalia-font-color);
+}
+.notificationcontent_StandardTemplate_1B_uv .notificationcontent_StandardNotificationSubText_3iYf4 {
+    color: var(--Dragalia-font-color);
+}
+.notificationcontent_StandardTemplate_1B_uv.gpfocus, 
+.notificationcontent_PinnedTemplate_H_NPi.gpfocus {
+    background-color: var(--Dragalia-focus-color);
+    animation-name: none;
+}
+.GamepadMode .friendslist_TabBumper_3Jr0A svg path:first-of-type {
+    stroke: var(--Dragalia-font-color);
+}
+.GamepadMode.friendlist .FriendsListTab {
+    color: var(--Dragalia-font-color);
+}
+.GamepadMode.friendlist .FriendsListTab.Active svg {
+    color: var(--Dragalia-focus-color);
+}
+.GamepadMode.friendlist .FriendsListTab.gpfocus svg {
+    color: var(--Dragalia-focus-color);
+}
+/* Game Name */
+.friendGroup.gameGroup .groupName {
+    color: var(--Dragalia-font-color);
+}
+/* Offline Friends */
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+    color: #8b929a;
+}
+.GamepadMode .friend.gpfocus .labelHolder .personanameandstatus_playerName_nOdcT {
+    text-shadow: none;
+}
+.GamepadMode .online .personanameandstatus_playerName_nOdcT {
+    color: var(--Dragalia-focus-color);
+    text-shadow: none;
+}
+.GamepadMode .online.gpfocus .personanameandstatus_playerName_nOdcT {
+    color: #ffffff;
+    text-shadow: none;
+}
+.GamepadMode .ingame.gpfocus .personanameandstatus_playerName_nOdcT {
+    color: #c8ffbb !important;
+    text-shadow: none;
+}
+.GamepadMode .gpfocus .personanameandstatus_playerNickname_2saJT {
+    color: var(--Dragalia-bkg-color);
+}
+.friendStatusHover.gpfocuswithin {
+    animation-name: none;
+    background: var(--Dragalia-focus-color);
+}
+.GamepadMode .friend.gpfocus .labelHolder.ingame .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: #c8ffbb;
+    text-shadow: none;
+}
+.GamepadMode .friend.gpfocus .labelHolder .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: #ffffff;
+    text-shadow: none;
+}
+.GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_playerName_nOdcT {
+    color: #c4e6ff;
+    text-shadow: none;
+}
+.GamepadMode .friendsnooze_SnoozeContainer_1Dsum.online .friendsnooze_SnoozeZ_2n0Ei {
+    color: #c4e6ff;
+}
+.GamepadMode .friend.gpfocus .labelHolder.offline .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: #ffffff;
+    text-shadow: none;
+}
+.GamepadMode.friendlist .TabPanelHeader .AddFriendButton {
+    color: #ffffff;
+}
+.GamepadMode.friendlist .TabPanelHeader .AddFriendButton.gpfocus {
+    background-color: var(--Dragalia-focus-color);
+    color: #ffffff;
+}
+.ChatRoomList .ChatRoomList_Empty {
+    color: var(--Dragalia-font-color);
+}
+button.gamepaddialog_Button_1kn70.DialogButton, 
+button.gamepaddialog_Button_1kn70.DialogButton:enabled {
+    color: #ffffff;
+}
+.GamepadMode .ingame.gpfocus .personanameandstatus_playerName_nOdcT {
+    color: #c4e6ff;
+    text-shadow: none;
+}
+.favoriteElement.gpfocuswithin {
+    animation-name: none;
+    background-color: var(--Dragalia-focus-color);
+}
+.GamepadMode.friendlist.gpfocuswithin .FriendsListSteamDeckTopSection {
+    box-shadow: none;
+}
+.GamepadMode .favoriteElement.gpfocus .labelHolder .personanameandstatus_playerName_nOdcT {
+    color: #ffffff;
+    text-shadow: none;
+}
+.GamepadMode .favoriteElement.gpfocus .labelHolder.ingame .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: #ffffff;
+    text-shadow: none;
+}
+.GamepadMode .favoriteElement.gpfocus .labelHolder.offline .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: #ffffff;
+    text-shadow: none;
+}
+.friend.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: #c4e6ff;
+    text-shadow: none;
+}
+.GamepadMode .favoriteElement.gpfocus .labelHolder .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: #ffffff;
+    text-shadow: none;
+}
+.GamepadMode .friend.gpfocus .labelHolder.online.awayOrSnooze .personanameandstatus_richPresenceLabel_2Ri00 {
+    color: #c4e6ff;
+    text-shadow: none;
+}

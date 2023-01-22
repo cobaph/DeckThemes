@@ -42,7 +42,7 @@
 
 /* Generic Button */
 button.gamepaddialog_Button_1kn70.DialogButton, 
-button.gamepaddialog_Button_1kn70.DialogButton:enabled, {
+button.gamepaddialog_Button_1kn70.DialogButton:enabled {
     background: transparent;
     color: var(--Dragalia-font-color);
     font-size: 16px;

@@ -1,6 +1,7 @@
 :root {
   --Dragalia-bkg-color: #e7e5e5;
   --Dragalia-font-color: #3d3b3e;
+  --Dragalia-dark-color: #081f30;
   --Dragalia-focus-color: #679ef9;
 }
 
@@ -26,11 +27,14 @@ Main Menu
 */
 /* Main Menu font */
 .mainmenu_ItemLabel_3x-ZK{
-    color: var(--Dragalia-font-color);
+    color: var(--Dragalia-dark-color);
 }
 .mainmenu_ItemIcon_3xZ3Z {
     display: flex;
-    color: var(--Dragalia-font-color);
+    color: var(--Dragalia-dark-color);
+}
+.mainmenu_Menu_23IDi .mainmenu_ItemLabel_3x-ZK {
+    font-size: 22px;
 }
 
 /* Focused Option */
@@ -45,7 +49,7 @@ Main Menu
 }*/
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemIcon_3xZ3Z, 
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5 .mainmenu_ItemLabel_3x-ZK {
-    color: var(--Dragalia-font-color);
+    color: var(--Dragalia-dark-color);
 }
 /* Main Menu Focus Tab Bkg Color */
 .mainmenu_Item_2w9Tp.mainmenu_Active_10bq5:focus {

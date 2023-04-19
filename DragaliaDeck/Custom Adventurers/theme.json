@@ -1,0 +1,51 @@
+{
+    "name": "Dragalia Deck",
+    "author": "Cobaph",
+    "version": "V2.0",
+    "manifest_version": 4,
+    "target": "System-Wide",
+    "description": "Vio Rhyse Alberia! A theme based on Dragalia Lost by Cygames and Nintendo. Feel free to message me if you want a custom adventurer. I don't know how to program, but I was inspired by and tried learning from Phantom (EMERALD#0874), SwitchLikeMenu (suchmememanyskill), Chiaki Nanami (Five#4321), and Gawr Gura (joamjoamjoam).",
+    "inject": { 
+        "images.css": ["SP" , "MainMenu" , "QuickAccess" ] ,
+        "MainMenu.css": ["MainMenu"] ,
+        "SP.css": ["SP"],
+        "QuickAccess.css": ["QuickAccess"]
+    },
+    "patches": {
+        "Adventurer": {
+            "default": "The Prince",
+            "type": "dropdown",
+            "values": {
+                "Alex": {"adventurer/alex.css": ["SP"]},
+                "Cassandra": {"adventurer/cassandra.css": ["SP"]},
+                "Chelle": {"adventurer/chelle.css": ["SP"]},
+                "Cleo": {"adventurer/cleo.css": ["SP"]},
+                "Elisanne": {"adventurer/elisanne.css": ["SP"]},
+                "Gala Mym": {"adventurer/galamym.css": ["SP"]},
+                "Laxi": {"adventurer/laxi.css": ["SP"]},
+                "Luca": {"adventurer/luca.css": ["SP"]},
+                "Nadine": {"adventurer/nadine.css": ["SP"]},
+                "Nefaria": {"adventurer/nefaria.css": ["SP"]},
+                "Ranzal": {"adventurer/ranzal.css": ["SP"]},
+                "The Prince": {"adventurer/theprince.css": ["SP"]},
+                "Valentine's Chelsea": {"adventurer/vchelsea.css": ["SP"]},
+                "Veronica": {"adventurer/veronica.css": ["SP"]},
+                "Zena": {"adventurer/zena.css": ["SP"]},
+                "Custom": {"adventurer/custom.css": ["SP"]}
+            }
+        },
+        "Font": {
+            "default": "Yes",
+            "type": "checkbox",
+            "values": {
+                "Yes": {"tccb.css": ["SP" , "MainMenu" , "QuickAccess"] },
+                "No": {}
+            }
+        }
+    },
+    "dependencies": {
+        "Switch Like Home": {
+            "No Friends": "Yes"
+        }
+    }
+}

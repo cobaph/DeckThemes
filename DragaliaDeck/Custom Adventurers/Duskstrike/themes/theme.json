@@ -1,0 +1,47 @@
+{
+    "name": "Dragalia Deck",
+    "author": "Cobaph",
+    "version": "V2.0",
+    "manifest_version": 4,
+    "target": "System-Wide",
+    "description": "Vio Rhyse Alberia! A theme based on Dragalia Lost by Cygames and Nintendo. Feel free to message me if you want a custom adventurer. I don't know how to program, but I was inspired by and tried learning from Phantom (EMERALD#0874), SwitchLikeMenu (suchmememanyskill), Chiaki Nanami (Five#4321), and Gawr Gura (joamjoamjoam).",
+    "inject": { 
+        "images.css": ["SP" , "MainMenu" , "QuickAccess" ] ,
+        "MainMenu.css": ["MainMenu"] ,
+        "SP.css": ["SP"],
+        "QuickAccess.css": ["QuickAccess"]
+    },
+    "patches": {
+        "Adventurer": {
+            "default": "Melsa",
+            "type": "dropdown",
+            "values": {
+                "Aeleen": {"adventurer/aeleen.css": ["SP"]},
+                "Aeleen (Nurse)": {"adventurer/nurseaeleen.css": ["SP"]},
+                "Althemia": {"adventurer/althemia.css": ["SP"]},
+                "Delphi": {"adventurer/delphi.css": ["SP"]},
+                "Eleonora": {"adventurer/eleonora.css": ["SP"]},
+                "Melsa": {"adventurer/melsa.css": ["SP"]},
+                "Mym": {"adventurer/galamym.css": ["SP"]},
+                "Mym (Halloween)": {"adventurer/halloweenmym.css": ["SP"]},
+                "Nefaria": {"adventurer/nefaria.css": ["SP"]},
+                "Odetta": {"adventurer/odetta.css": ["SP"]},
+                "Odetta (Halloween)": {"adventurer/halloweenodetta.css": ["SP"]},
+                "Serena": {"adventurer/serena.css": ["SP"]}
+            }
+        },
+        "Font": {
+            "default": "Yes",
+            "type": "checkbox",
+            "values": {
+                "Yes": {"tccb.css": ["SP" , "MainMenu" , "QuickAccess"] },
+                "No": {}
+            }
+        }
+    },
+    "dependencies": {
+        "Switch Like Home": {
+            "No Friends": "Yes"
+        }
+    }
+}
